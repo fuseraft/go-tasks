@@ -23,7 +23,7 @@ This is a simple REST API for managing tasks, built with Go, SQLite, and Swagger
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/fuseraft/go-tasks.git
-   cd task-api
+   cd go-tasks
    ```
 
 2. **Install dependencies:**
