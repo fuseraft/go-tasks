@@ -1,0 +1,16 @@
+routes:
+  - path: /tasks
+    method: POST
+    handler: createTask
+  - path: /tasks
+    method: GET
+    handler: getTasks
+  - path: /tasks/{id}
+    method: GET
+    handler: getTask
+  - path: /tasks/{id}
+    method: PUT
+    handler: updateTask
+  - path: /tasks/{id}
+    method: DELETE
+    handler: deleteTask
